@@ -24,7 +24,7 @@ This project implements a simple rule engine in Node.js that can parse and evalu
 
 ## Directory Structure
 
-```bash
+```
 rule-engine-node/
 ├── app.js                    # Main entry point of the application
 ├── routes/
@@ -32,14 +32,13 @@ rule-engine-node/
 └── controllers/
     └── ruleController.js     # Core logic for rule parsing, combination, and evaluation
     └── ruleEngine.js         # Core logic for user defined function parsing, combination, and evaluation
-
+```
 ## Setup Instructions
 
 ### Prerequisites
 Make sure you have Node.js installed.
 
 1. **Clone the repository**:
-   ```bash
    git clone [https://github.com/arbindras/rule-engine-api.git](https://github.com/arbindras/rule-engine-api.git)
    cd rule-engine-api
 2. **Install dependencies**:
@@ -53,3 +52,13 @@ Make sure you have Node.js installed.
   - POST /api/rules/evaluate: Evaluates a rule against provided data.
   - POST /api/rules/modify: Modify a rule.
   - POST /api/rules/evalfunction: Evaluates a rule against user defined function..
+## Images of Testing on POSTMAN
+1. Create a Rule    ![Screenshot 2024-10-26 152049](https://github.com/user-attachments/assets/d281fa05-5276-4330-83e9-8e7890f5dc10)
+
+2. Evaluate a Rule    ![Screenshot 2024-10-26 152234](https://github.com/user-attachments/assets/0c482505-5f4e-4300-a652-f999fdde694e)
+
+3. Modify Rule    ![Screenshot 2024-10-26 152437](https://github.com/user-attachments/assets/5f5d342e-8856-491d-a9d8-9bad8e2b935a)
+
+4. Error Handling    ![Screenshot 2024-10-26 152541](https://github.com/user-attachments/assets/9a75446b-e6ef-4101-b9c5-20baae26d65b)
+
+5. Evaluating the user defined function    ![Screenshot 2024-10-26 153835](https://github.com/user-attachments/assets/490ceed7-5e57-4ea5-a8da-c039078736ee)
